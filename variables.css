@@ -1,0 +1,63 @@
+/**
+ * @name Messi Custom Theme
+ * @author Sheikh Taif
+ * @version 2.0.0
+ * @description Professional modular Discord theme.
+ */
+
+@import url('https://raw.githubusercontent.com/anonymousxns/my-vencord-theme/main/variables.css');
+
+#app-mount,
+.app_a01fb1,
+.bg_d4b6c5 {
+    background-image: var(--theme-wallpaper) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.theme-dark .layer_ec16dd,
+.theme-dark .container_ee721c,
+.theme-dark .sidebar_a4d4d9,
+.theme-dark .chat_a7d72e,
+.theme-dark .container_a4d4d9,
+.theme-dark .members_cbd271,
+.theme-dark .container_cbd271,
+.theme-dark .scroller_c47fa9,
+.theme-dark .privateChannels_f0963d,
+.theme-dark .panels_a4d4d9,
+.theme-dark .container_a2a402,
+.theme-dark .chatContent_a7d72e,
+.theme-dark .title_a7d72e,
+.theme-dark .wrapper_a7e7a1,
+.theme-dark .applicationStore_f3ee27,
+.theme-dark .pageWrapper_a3a4ce,
+.theme-dark .scroller_cbd271 {
+    background: var(--main-dark-color) !important;
+}
+
+.channelTextArea_a7d72e {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border: 1px solid var(--accent-red-color) !important;
+}
+
+:root {
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --background-accent: transparent !important;
+    
+    --text-normal: var(--text-light) !important;
+    --text-muted: var(--text-muted) !important;
+    --text-link: var(--text-gold) !important;
+    
+    --brand-experiment: #a8192e !important;
+    --brand-experiment-560: #8a1222 !important;
+    
+    --status-online: var(--text-gold) !important;
+    --text-brand: var(--text-gold) !important;
+}
+
+.message_d5deea:hover {
+    background-color: var(--hover-red-color) !important;
+}
