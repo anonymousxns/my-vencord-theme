@@ -1,0 +1,50 @@
+/**
+ * @name Messi Custom Theme
+ * @author Sheikh Taif
+ * @version 1.1.0
+ * @description Custom Discord theme matched with Messi's wallpaper colors.
+ */
+
+.appMount_ea7e11 {
+  background-image: url('https://github.com/anonymousxns/my-vencord-theme/blob/main/Wallpaper%20(1).jpg?raw=true') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.theme-dark .container_ee721c,
+.theme-dark .sidebar_a4d4d9,
+.theme-dark .chat_a7d72e,
+.theme-dark .container_a4d4d9,
+.theme-dark .members_cbd271,
+.theme-dark .container_cbd271,
+.theme-dark .scroller_c47fa9,
+.theme-dark .privateChannels_f0963d,
+.theme-dark .panels_a4d4d9 {
+  background: rgba(15, 18, 26, 0.75) !important;
+}
+
+.channelTextArea_a7d72e {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border: 1px solid rgba(168, 25, 46, 0.3) !important;
+}
+
+:root {
+  --background-primary: transparent !important;
+  --background-secondary: transparent !important;
+  --background-tertiary: transparent !important;
+  
+  --text-normal: #f4f4f6 !important;
+  --text-muted: #a0a5b5 !important;
+  --text-link: #fcc201 !important;
+  
+  --brand-experiment: #a8192e !important;
+  --brand-experiment-560: #8a1222 !important;
+  
+  --status-online: #fcc201 !important;
+  --text-brand: #fcc201 !important;
+}
+
+.message_d5deea:hover {
+  background-color: rgba(168, 25, 46, 0.08) !important;
+}
